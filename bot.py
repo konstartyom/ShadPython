@@ -15,7 +15,7 @@ except ImportError:
 try:
     from urllib.error import URLError
 except ImportError:
-    from urllib2 import URLError  # python 2
+    from urllib2 import URLError # python 2
 
 
 def main():
